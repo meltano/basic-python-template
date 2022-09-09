@@ -8,11 +8,11 @@ A github repo template for generic Meltano python projects
 2. Update `pyproject.toml` renaming the repo and python packages as needed
 3. Rename or remove the `basic_python_template` directory as needed
 4. Update or remove the `tests` as needed
-5. Take a look at `.github` and update the issue templates and semantic prs workflow as needed
-6. Visit the https://github.com/meltano/internal-tech-ops and open issue requesting that the following two github apps be installed for your new repo:
+5. Take a look at the `.github` dir and update the issue templates and semantic prs workflow as needed
+6. Visit the [internal-tech-ops](https://github.com/meltano/internal-tech-ops) and [open an issue](https://github.com/meltano/internal-tech-ops/issues/new?title=github%20apps%20install%20request) requesting that the following two github apps be installed for your new repo:
    1. semantic prs
    2. pre-commit ci
-7. Verify the team permissions and settings for the repo (recommended settings below), you can ask in the https://github.com/meltano/internal-tech-ops for assitance with permissions as required.
+7. Verify the team permissions and settings for the repo (recommended settings below). You can also create an issue in [internal-tech-ops](https://github.com/meltano/internal-tech-ops) for additional assistance/validation/etc.
    1. Access - Collaborators and teams
       1. @aaronsteers -> role: admin
       2. @meltano/engineer -> role: maintain
