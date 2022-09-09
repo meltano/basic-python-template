@@ -23,4 +23,4 @@ A github repo template for generic Meltano python projects
    3. Code security and analysis
       1. Code scanning -> Enabled (config already supplied in repo)
 8. Replace this README.md with something more appropriate
-9.  Go forth and build something cool!
+9. Go forth and build something cool!
