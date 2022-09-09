@@ -1,4 +1,4 @@
-# Contributing to the SDK
+# Contributing to this package
 
 Let's build together! Please see our [Contributor Guide](https://docs.meltano.com/contribute/)
 for more information on contributing to Meltano.
