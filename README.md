@@ -4,7 +4,7 @@ A github repo template for generic Meltano python projects
 
 ## using this template
 
-1. create a new github project - selecting this repo as the source template
+1. create a new github project - selecting this repo as the source template - [doc: creating a repo from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 2. Update `pyproject.toml` renaming the epo and python packages as needed
 3. Rename or remove the `basic_python_template` directory as needed
 4. Update or remove the `tests` as needed
