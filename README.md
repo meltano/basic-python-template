@@ -1,16 +1,18 @@
-# basic-python-template
+# Basic-python-template
 
 A github repo template for generic Meltano python projects
 
-## using this template
+## Using this template
 
 1. create a new github project - selecting this repo as the source template - [doc: creating a repo from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. Update `pyproject.toml` renaming the epo and python packages as needed
+2. Update `pyproject.toml` renaming the repo and python packages as needed
 3. Rename or remove the `basic_python_template` directory as needed
 4. Update or remove the `tests` as needed
 5. Take a look at `.github` and update the issue templates and semantic prs workflow as needed
-6. Install any needed github app (e.g. semantic prs)
-7. Verify the team permissions and settings for the repo (recommended settings below)
+6. Visit the https://github.com/meltano/internal-tech-ops and open issue requesting that the following two github apps be installed for your new repo:
+   1. semantic prs
+   2. pre-commit ci
+7. Verify the team permissions and settings for the repo (recommended settings below), you can ask in the https://github.com/meltano/internal-tech-ops for assitance with permissions as required.
    1. Access - Collaborators and teams
       1. @aaronsteers -> role: admin
       2. @meltano/engineer -> role: maintain
