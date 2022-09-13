@@ -40,7 +40,7 @@ More advanced rules and settings can be found within the file [`.github/semantic
 
 ### Pervasive Python Type Hints
 
-Type hints allow us to spend less time reading documentation. Public modules should be checked for type annotations on all methods and functions.
+Type hints allow us to spend less time reading documentation. This repo template ships with a default mypy config, it can be relaxed *if* needed on a per-module/per-import basis.
 
 ### Docstring convention
 
