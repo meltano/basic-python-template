@@ -47,7 +47,6 @@ warn_return_any = true
 warn_unused_ignores = true
 show_error_codes = true
 
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
