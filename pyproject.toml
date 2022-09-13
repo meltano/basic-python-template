@@ -12,7 +12,7 @@ license = "Apache 2.0"
 packages = [{include = "basic_python_template"}]
 
 [tool.poetry.dependencies]
-python = "<3.10,>=3.7"
+python = "<3.11,>=3.7"
 
 [tool.poetry.urls]
 "Issue Tracker" = "https://github.com/meltano/basic-python-template/issues"
