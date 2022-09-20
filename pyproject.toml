@@ -46,7 +46,9 @@ no_implicit_optional = true
 warn_return_any = true
 warn_unused_ignores = true
 show_error_codes = true
-exclude = "tests"
+exclude = [
+    '^(.*/)?tests/.*$',
+]
 
 [tool.pytest.ini_options]
 addopts = "-ra"
