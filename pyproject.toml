@@ -18,19 +18,11 @@ packages = [{include = "basic_python_template"}]
 "Slack" = "https://meltano.com/slack"
 "Youtube" = "https://www.youtube.com/meltano"
 
-[tool.poetry.dependencies]
-python = ">=3.7,<3.11"
-
 [tool.poetry.group.dev.dependencies]
-black = "^22.8"
-darglint = "^1.8"
-flake8 = "^5.0"
-flake8-annotations = "^2.9"
-flake8-docstrings = "^1.6"
-isort = "^5.10"
-mypy = "^0.971"
-pre-commit = "^2.20"
-pytest = "^7.1"
+pre-commit = "^2.20.0"
+# Many dev deps (e.g. linters) should be managed by pre-commit. This gives them
+# their own virtual environment where they won't conflict with anything other
+# deps. See: `.pre-commit-config.yaml`.
 
 [tool.isort]
 profile = "black"
