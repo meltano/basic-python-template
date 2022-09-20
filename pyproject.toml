@@ -18,6 +18,9 @@ packages = [{include = "basic_python_template"}]
 "Slack" = "https://meltano.com/slack"
 "Youtube" = "https://www.youtube.com/meltano"
 
+[tool.poetry.dependencies]
+python = "<3.11,>=3.7"
+
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^2.20.0"
 # Many dev deps (e.g. linters) should be managed by pre-commit. This gives them
