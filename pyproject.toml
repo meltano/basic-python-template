@@ -22,7 +22,7 @@ python = "<3.11,>=3.7"
 "Youtube" = "https://www.youtube.com/meltano"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "^7.1"
 isort = "^5.10.1"
 black = "^22.6"
 darglint = "^1.8.0"
