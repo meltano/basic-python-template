@@ -11,9 +11,6 @@ license = "Apache 2.0"
 
 packages = [{include = "basic_python_template"}]
 
-[tool.poetry.dependencies]
-python = "<3.11,>=3.7"
-
 [tool.poetry.urls]
 "Issue Tracker" = "https://github.com/meltano/basic-python-template/issues"
 "Twitter" = "https://twitter.com/meltanodata/"
@@ -21,18 +18,19 @@ python = "<3.11,>=3.7"
 "Slack" = "https://meltano.com/slack"
 "Youtube" = "https://www.youtube.com/meltano"
 
-[tool.poetry.dev-dependencies]
-pytest = "^7.1"
-isort = "^5.10.1"
-black = "^22.6"
-darglint = "^1.8.0"
-flake8 = "^3.9.0"
-flake8-annotations = "^2.9.1"
-flake8-docstrings = "^1.6.0"
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
 
 [tool.poetry.group.dev.dependencies]
-pre-commit = "^2.20.0"
+black = "^22.8"
+darglint = "^1.8"
+flake8 = "^5.0"
+flake8-annotations = "^2.9"
+flake8-docstrings = "^1.6"
+isort = "^5.10"
 mypy = "^0.971"
+pre-commit = "^2.20"
+pytest = "^7.1"
 
 [tool.isort]
 profile = "black"
