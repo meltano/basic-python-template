@@ -33,6 +33,14 @@ More advanced rules and settings can be found within the file [`.github/semantic
 
 ## Workspace Development Strategies for Meltano Python packages
 
+### pre-commit
+
+We use [pre-commit](https://pre-commit.com/) to install and run linters and similar tools within their own virtual environments. This keeps our dev-dependencies light, which helps avoid dependency conflicts, and maximizes the range of dependencies our packages are compatible with.
+
+`pre-commit` is included as a dev-dependency in our projects. Once installed, it can be used by running `pre-commit` in a shell in the Python environment. By default it will only run on files that have been staged into the git index. It can be run on all files by running `pre-commit run --all-files`. Specific tools (e.g. `mypy`, or `flake8`) can be run individually by supplying their name as an argument, e.g. `pre-commit run mypy`.
+
+To configure `pre-commit`, edit `.pre-commit-config.yaml`.
+
 ### Universal Code Formatting
 
 - From the [Black](https://black.readthedocs.io) website:
