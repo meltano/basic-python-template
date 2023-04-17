@@ -14,7 +14,6 @@ A github repo template for generic Meltano python projects
    2. pre-commit ci
 7. Verify the team permissions and settings for the repo (recommended settings below). You can also create an issue in [internal-tech-ops](https://github.com/meltano/internal-tech-ops) for additional assistance/validation/etc.
    1. Access - Collaborators and teams
-      1. @aaronsteers -> role: admin
       2. @meltano/engineer -> role: maintain
       3. @meltano/team -> role: write
    2. Branches - Branch protection rules
