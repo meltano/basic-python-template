@@ -19,7 +19,7 @@ packages = [{include = "basic_python_template"}]
 "Youtube" = "https://www.youtube.com/meltano"
 
 [tool.poetry.dependencies]
-python = "<3.11,>=3.7"
+python = "<3.13,>=3.9"
 
 [tool.poetry.group.dev.dependencies]
 # Many dev deps (e.g. linters) should be managed by pre-commit. This gives them
