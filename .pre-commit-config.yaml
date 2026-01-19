@@ -18,18 +18,18 @@ repos:
             .bumpversion.cfg
         )$
 
-- repo: https://github.com/psf/black
-  rev: 25.9.0
+- repo: https://github.com/psf/black-pre-commit-mirror
+  rev: 26.1.0
   hooks:
   - id: black
 
 - repo: https://github.com/pycqa/isort
-  rev: 6.0.1
+  rev: 7.0.0
   hooks:
   - id: isort
 
 - repo: https://github.com/asottile/pyupgrade
-  rev: v3.20.0
+  rev: v3.21.2
   hooks:
   - id: pyupgrade
     args: ['--py37-plus']
@@ -44,7 +44,7 @@ repos:
     - flake8-docstrings==1.6.0
 
 - repo: https://github.com/pre-commit/mirrors-mypy
-  rev: v1.18.2
+  rev: v1.19.1
   hooks:
   - id: mypy
     exclude: 'tests'
